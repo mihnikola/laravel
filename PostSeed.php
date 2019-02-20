@@ -11,6 +11,7 @@ class PostSeed extends Seeder
      */
     public function run()
     {
+        //Make 5 Posts
       factory(App\Post::class, 5)->create();
 
 
