@@ -11,6 +11,7 @@ class ClientSeed extends Seeder
      */
     public function run()
     {
+          // Make me 10 clients
           factory(App\Client::class, 10)->create();
       }
 
